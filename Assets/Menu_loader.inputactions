@@ -1,0 +1,34 @@
+{
+    "name": "Menu_loader",
+    "maps": [
+        {
+            "name": "MenuLoader",
+            "id": "a977f351-929a-4ff9-a477-5e2cff96935c",
+            "actions": [
+                {
+                    "name": "Menu_Loader",
+                    "type": "Button",
+                    "id": "76fbceaf-b53e-4cfe-995e-04ace03eb348",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b9e91c52-597c-45d1-8ea5-c34f0e4ded46",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu_Loader",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
