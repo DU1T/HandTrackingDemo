@@ -22,14 +22,14 @@ public class MenuManosTour : MonoBehaviour
         }
     }
 
-    public void ResetCanvasState() 
+    public void ResetCanvasState()
     {
         if (canvasState)
         {
             canvasState = false;
         }
     }
-    public void OnGestureEnded() 
+    public void OnGestureEnded()
     {
         Debug.Log("Gesto de menu terminado");
     }
